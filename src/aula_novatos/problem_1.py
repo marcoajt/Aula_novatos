@@ -7,11 +7,4 @@ def problem_1(limit: int) -> int:
     Returns:
         int: retorno da soma do intervalo
     """
-    x = 0
-    y = 0
-
-    for x in range(limit):
-        if x % 3 == 0 or x % 5 == 0:
-            y += x
-
-    return y
+    return sum([item for item in range(limit) if not item % 3 or not item % 5])
