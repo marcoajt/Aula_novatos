@@ -1,5 +1,0 @@
-x = 2
-
-def fibonnaci (x):
-    y = x * (x-1)
-    
