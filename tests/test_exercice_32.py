@@ -6,4 +6,4 @@ def test_example():
 
 
 def test_wanted():
-    assert 137846528820 == routes_grid(20)
+    assert 137_846_528_820 == routes_grid(20)
